@@ -1,0 +1,166 @@
+body{
+    background-image: url("photo_2026-09-22_13-52-48.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border-radius: 10px;
+     
+
+}
+.img-client{
+    width: 190px;
+    height: 150px;
+    border-radius: 50%;
+
+     
+}
+.why-choose-us h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.client{
+    border: 2px solid #F5CEBF;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    animation:zoomIn  1s ease-in;
+}
+@keyframes zoomIn  {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+.client h3{
+    font-weight: bold;
+    
+}
+.client p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+.why{
+    border: 2px solid #F5CEBF;
+    border-radius: 9px;
+    background-color: #F5CEBF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+ 
+
+}
+.why:hover{
+    transform: scale(1.05);
+}
+.why-flex{
+    display: flex; 
+    gap: 30px;
+}
+.h1-why-choose{
+    margin-top: 100px;
+}
+.how-are-we{
+    text-align: center;
+}
+.how-are-we p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+body.dark-mode{
+    display: block;
+    background-image: url( "photo_2026-09-22_16-26-57.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white ;
+}
+body.dark-mode .client{
+    background-color: #996B73;
+}
+body.dark-mode .why{
+    background-color: #996B73;
+    border-color: #996B73;
+}
+body.dark-mode A{
+    color: white;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+}
+header ul{
+    display: flex;
+    gap:30px;
+    margin-right: 20px;
+    list-style: none;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header h3{
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+}
+ul button{
+    border: none;
+ 
+    background-color: #F6EDDE;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    body{
+        background-size: 100% 600px;
+    }
+    body.dark-mode{
+        background-size: 100% 600px;
+    }
+    .img-client{
+        width: 170px;
+        height: 100px;
+    }
+    .client p{
+        line-height: 1;
+        font-size: 13px;
+    }
+    .client{
+        width: 200px;
+        height: 250px;
+    }
+    .why{
+        
+        height: 250px;
+    }
+    .why-flex{
+        display: flex;
+        gap: 10px;
+        
+    }
+    header ul{
+        display: flex;
+        gap: 15px;
+    }
+  
+}
+ 
+ 
+

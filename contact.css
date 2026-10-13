@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     
+     
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F5CEBF;
+    background-image: url("photo_2026-09-22_13-52-48.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
+     
+
+    
+}
+.box{
+    text-align: center;
+     
+   
+}
+ 
+ 
+input  {
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 50%;
+    border: 2px solid #F5CEBF;
+}
+ 
+ textarea{
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 2px solid #F5CEBF;
+}
+select{
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 2px solid #F5CEBF;
+}
+ 
+.box-element{
+    padding: 5px;
+}
+footer{    
+    color: white;
+    background-color: #DFA896;
+    background-position: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 7px 30px;
+     
+
+}
+a{ 
+    color: white;
+    text-decoration: none;
+}
+.bu{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color:#DFA896 ;
+    color: white;
+    border-color: #DFA896;
+}
+.bu:hover{
+    background-color: pink;
+    border-color: pink;
+}
+body.dark-mode{
+    
+    background-image: url( "photo_2026-09-22_16-26-57.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+body.dark-mode A{
+    color: white;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+}
+header ul{
+    display: flex;
+    gap:30px;
+    margin-right: 20px;
+    list-style: none;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header h3{
+     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 0.2%;
+    margin-left: 0.2%;
+}
+ul button{
+    border: none;
+ 
+    background-color: #F6EDDE;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    body{
+        background-size: 100% 600px;
+    }
+    body.dark-mode{
+        background-size: 100% 600px;
+    }
+    header ul{
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+        font-size: 14px;
+        position: relative;
+        right: 28px;
+         
+    }
+    .box{
+        margin-top: 30px;
+         
+    }
+    
+}
+ 
