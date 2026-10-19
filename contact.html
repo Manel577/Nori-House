@@ -24,18 +24,22 @@
         <div class="box">
             <h1>Complete Your Order</h1>
             <p>Please fill in your details to confirm your order.</p>
-            <form>
+            <form
+                action="https://formspree.io/f/xbgdezzp"
+                method="POST"
+            >
+                 
                 <div class="box-element"> 
                 <lable for="first-name">First Name:</lable><br>
-                <input id="first-name" type="text" placeholder="First Name" required>
+                <input id="first-name" name="first_name" type="text" placeholder="First Name" required>
                 </div>
                 <div class="box-element">
                     <lable for="last-name">Last Name:</lable><br>
-                    <input id="last-name" type="text" placeholder="Last Name" required>
+                    <input id="last-name" name="last_name"   type="text" placeholder="Last Name" required>
                 </div>
                 <div  class="box-element"> 
                 <lable for="email">Email:</lable><br>
-                <input id="email" type="email" placeholder="Your email" required>
+                <input id="email" type="email" name="email_user" placeholder="Your email" required>
                 </div>
                 <div  class="box-element">
                     <lable for="phone">Phone Number:</lable><br>
@@ -43,7 +47,7 @@
                 </div>
                 <div  class="box-element">
                     <lable for="first-name">what do you want to order?</lable><br>
-                    <select>
+                    <select name="order">
                         <option>choose your favorite:</option>
                         <option>Nigiri</option>
                         <option>california sushi</option>
@@ -60,7 +64,7 @@
                 </div>
                 <div  class="box-element">
                     <label for="requests">Special requests?</label><br>
-                    <textarea id="requests" placeholder="Any special requests..."></textarea>
+                    <textarea id="requests" name="request" placeholder="Any special requests..."></textarea>
                 </div>
                 <button type="submit" class="bu" >Send Now!</button>
                 <footer>
